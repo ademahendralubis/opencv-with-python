@@ -1,3 +1,5 @@
+#code by codingan
+
 import cv2
 
 #load image
