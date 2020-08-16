@@ -1,7 +1,9 @@
 import cv2
 
+#load image
 image = cv2.imread('image.png')
 
+#show image
 cv2.imshow('window',image)
 
 while True:
@@ -9,4 +11,5 @@ while True:
         cv2.destroyAllWindows()
         break;
 
+#save image
 cv2.imwrite('a.jpg',image)
