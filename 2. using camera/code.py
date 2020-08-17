@@ -1,7 +1,11 @@
+# code by codingan
+
 import cv2
 
+# Load the camera device
 camera = cv2.VideoCapture(0)
 
+# Show image from the camera
 while True:
     ret, frame = camera.read()
 
@@ -9,5 +13,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
+# When all done, release the capture and close all opened windows
 camera.release()
 cv2.destroyAllWindows()
