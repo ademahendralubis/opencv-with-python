@@ -20,4 +20,4 @@ if cv2.waitKey(0) & 0xFF == ord('q'):
     cv2.destroyAllWindows()
 
 #save the resized image
-cv2.imwrite("resize.png",resize)
+cv2.imwrite("resized.png",resize)
