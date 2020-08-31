@@ -5,7 +5,7 @@ import cv2
 # Load the camera device
 camera = cv2.VideoCapture(0)
 
-# Show image from the camera
+# Show image from the camera (frame by frame)
 while True:
     ret, frame = camera.read()
 
